@@ -41,7 +41,7 @@ void organs(const char* dir, long long code) {
         const char* filename;
 
         cout << endl;
-        cout << "filedata => longdata" << endl;
+        cout << "file => llongdata" << endl;
         cout << endl;
 
         string str;
@@ -66,7 +66,7 @@ void organs(const char* dir, long long code) {
         cout << endl;
 
         cout << endl;
-        cout << "longdata => filedata" << endl;
+        cout << "llongdata => file" << endl;
         cout << endl;
 
         filewrite(filename, encv);
