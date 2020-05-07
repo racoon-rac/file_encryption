@@ -13,7 +13,7 @@ void organs(const char* dir, long long code);
 
 int main() {
 
-    const char* set_dir = "test";
+    const char* set_dir = "dir_name";
 
     bitset<64> set_code (
         "0010100010100010100010100010100010100010100010100010100010101010");
